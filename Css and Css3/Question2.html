@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+     <style>
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+.profile-card {
+    background-color: white;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; 
+}
+
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #007bff;
+    padding: 5px;
+    box-sizing: content-box; 
+}
+
+.profile-name {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.profile-bio {
+    font-size: 16px;
+    color: #555;
+    margin: 10px 0 20px;
+    padding: 0 10px;
+}
+
+.follow-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.follow-button:hover {
+    background-color: #0056b3;
+}
+
+     </style>
+</head>
+<body>
+    <div class="profile-card">
+        <img src="https://www.w3schools.com/w3images/team2.jpg" alt="Profile Picture" class="profile-picture">
+        <h2 class="profile-name">John Doe</h2>
+        <p class="profile-bio">Web Developer & Designer. Passionate about creating beautiful, functional websites.</p>
+        <button class="follow-button">Follow</button>
+    </div>
+</body>
+</html>
